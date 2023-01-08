@@ -43,4 +43,4 @@ def parse_series(last_post_series):
         genre.text for genre in description_data.find_all("a", rel="tag")
     ]
 
-    return f"{title}\n{rating}\n{','.join(genre_film)}\n{description}\n{description_url}"
+    return f"Название: {title}\nРейтинг: {rating}\n Жанр: {','.join(genre_film)}\nОписание: {description}\n{description_url}"
