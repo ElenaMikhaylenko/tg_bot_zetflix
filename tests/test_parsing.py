@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-from main import parse_series
+from bot.main import parse_series
 
 
 class MockResponse:

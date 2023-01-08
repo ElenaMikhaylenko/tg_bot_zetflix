@@ -2,7 +2,7 @@ import time
 
 import telebot
 
-from main import get_new_series
+from bot.main import get_new_series
 
 API_KEY = ""
 
